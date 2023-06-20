@@ -1,0 +1,29 @@
+body{
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-modern{
+    color: white;
+    background-color: green;
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 2px solid darkgreen;
+    border-radius: 5px;
+}
+
+.btn-modern:hover{
+    animation: transicion 0.4s forwards;
+}
+
+@keyframes transicion{
+    100%{
+        transform: translateY(-5px);
+        box-shadow: 3px 3px darkblue;
+        background-color: blue;
+        border-bottom: darkblue;
+        color: black;
+    }
+}
